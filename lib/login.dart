@@ -133,7 +133,7 @@ void showSnackBar2(BuildContext context){
 void showSnackBar3(BuildContext context){
   ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
-      content: Text("Dice의 철자를 확인하세요"),
+      content: Text("Dice의 철자를 확인하세요!"),
       // 중앙 정렬
       duration: Duration(seconds: 2),
       backgroundColor: Colors.blueGrey,
